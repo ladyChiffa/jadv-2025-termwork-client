@@ -5,8 +5,8 @@ import java.io.PrintWriter;
 import java.net.Socket;
 
 public class PollEvents {
-    String host;
-    int port;
+    protected String host;
+    protected int port;
     public PollEvents(String host, int port) {
         this.host = host;
         this.port = port;
